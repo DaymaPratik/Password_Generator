@@ -1,0 +1,147 @@
+*{
+padding: 0px;
+margin: 0px;
+box-sizing: border-box;
+}
+/* .pass-box{
+border: 2px solid white
+} */
+.op-box{
+    display: flex;
+    /* border: 2px solid blue; */
+    justify-content: center;
+    align-items: center;
+}
+.op-ip{
+/* border: 2px solid yellowgreen; */
+border: none;
+font-size: 25px;
+font-weight: 600;
+padding: 11px;
+display: block;
+margin: 20px 0px;
+width: 60%;
+}
+.copy-btn{
+    background: linear-gradient(200deg,#00C1D0, #0A0F44);
+    color: white;
+    border: none;
+    font-size: 25px;
+    padding: 11px 20px;
+    transition: 0.2s ease-in;
+}
+.copy-btn:hover{
+    color: white;
+    background: black;
+    border: 2px solid white;
+    scale: 102%;
+}
+.form{
+/* border: 2ps solid saddlebrown; */
+width: 70%;
+margin: 15px auto;
+font-size: 25px;
+background: linear-gradient(200deg,#E4F3E3, #5CA9E9);
+color: black;
+padding-bottom: 5px;
+box-shadow: 0px 0px 10px 1px rgb(119, 234, 244);
+}
+.form label{
+    margin-right: 5px;
+}
+.form .range-display{
+    margin: 7px;
+    display: inline-block;
+    font-weight: 600;
+}
+.form .range{
+    background: linear-gradient(200deg,#00C1D0, #0A0F44);
+}
+.form div{
+/* border: 2px solid black; */
+padding: 10px;
+}
+.generate-btn{
+    background: linear-gradient(200deg,#00C1D0, #0A0F44);
+    color: white;
+    /* border: 2px solid black; */
+    border: none;
+    border-radius: 10px;
+    padding: 10px 20px;
+    margin:20px auto;
+    font-size: 20px;
+    display: block;
+    transition: 0.2s ease-in;
+}
+.generate-btn:hover{
+    color: white;
+    background: black;
+    border: 2px solid white;
+    scale: 102%;
+}
+
+
+
+@media screen and (max-width:700px) {
+    .form{
+        width: 85%;
+        font-size: 20px;
+    }
+    .op-ip{
+        font-size: 20px;
+        width: 75%;
+    }
+
+    .copy-btn{
+        font-size: 20px;
+    }
+}
+
+
+
+@media screen and (max-width:500px) {
+    .op-box{
+        flex-direction: column;
+    }
+    .form{
+        width: 90%;
+        font-size: 17px;
+    }
+    .op-ip{
+        font-size: 17px;
+        width: 90%;
+    }
+
+    .copy-btn{
+        font-size: 17px;
+    }
+    .generate-btn{
+        font-size: 17px;
+    }
+}
+
+
+@media screen and (max-width:350px) {
+    .op-box{
+        flex-direction: column;
+    }
+    .form{
+        width: 100%;
+        font-size: 15px;
+    }
+    .op-ip{
+        font-size: 15px;
+        width: 95%;
+    }
+
+    .copy-btn{
+        font-size: 15px;
+    }
+    .generate-btn{
+        font-size: 15px;
+        padding: 5px;
+    }
+}
+
+
+

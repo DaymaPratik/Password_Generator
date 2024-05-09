@@ -1,0 +1,33 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+main{
+    width: 60%;
+    margin: 100px auto;
+    /* border: 2px solid red; */
+    background: linear-gradient(245deg,black,black, #38AECC,black,black);
+    color: white; 
+    opacity: 0.9;
+    padding: 25px;
+    border-radius: 15px;
+box-shadow: 0px 0px 10px 1px rgb(119, 234, 244);
+    
+}
+@media screen and (max-width:1024px) {
+    main{
+        width:80%;
+    }
+}
+@media screen and (max-width:800px) {
+    main{
+        width:85%;
+    }
+}
+
+@media screen and (max-width:500px) {
+    main{
+        width:90%;
+    }
+}
